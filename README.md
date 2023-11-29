@@ -18,6 +18,7 @@ A solução propõe resolver a complexidade na gestão de saúde, facilitando o 
 - Realização de exames específicos prescritos previamente pela nossa equipe médica conforme a necessidade perante a consulta agendada.
 
 ## Tecnologias Utilizadas e Versão
+- Git
 - Java 17 (JPA)
 - Spring Boot
 - Maven 
