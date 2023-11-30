@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5B38ADC2-F1CF-8377-17E8-8E801EFF579C" name="medico">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:12:23 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="2B46F048-D957-4054-46D1-BA45053A3C49">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:12:28 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="7480B55D-7DEB-30EC-B3F9-DF3C88C2B67F">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:12:43 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="E15A0C28-F13E-571E-63C9-9D5CAE1F55AD">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:13:05 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_nascimento" id="D0D4A634-7E5C-DC6C-CF8A-623FD0C3EEFC">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:13:16 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="09942E52-04B4-268D-19E6-B9044CF1A13B">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:13:28 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="especialidade_medico" id="BF901BCB-80A3-7B67-6CAA-4702B119C0D3">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:13:39 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4BE5C330-B16B-535C-FBBF-53B318DAB5AE" name="medico PK">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:12:42 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2B46F048-D957-4054-46D1-BA45053A3C49</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

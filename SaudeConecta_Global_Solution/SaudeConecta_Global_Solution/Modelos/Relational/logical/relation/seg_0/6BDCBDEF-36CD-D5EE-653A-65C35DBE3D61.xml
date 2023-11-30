@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="avalia" directorySegmentName="seg_0" id="6BDCBDEF-36CD-D5EE-653A-65C35DBE3D61">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:16:19 UTC</createdTime>
+<ownerDesignName>Relational</ownerDesignName>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="true"/>
+</engineerTo>
+<sourcePk>EF45E165-CBD4-95D7-4F91-97C42233BEA6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6DB21111-EF16-0428-5A99-CDF11C600A98</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>58B037AE-02EB-40FD-048E-0AA6EA48D68C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

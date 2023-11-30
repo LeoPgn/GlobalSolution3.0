@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="58B037AE-02EB-40FD-048E-0AA6EA48D68C" name="consulta">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:05:57 UTC</createdTime>
+<ownerDesignName>Relational</ownerDesignName>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_consulta" id="7C775C4A-533D-3066-27FC-D46482A99A54">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:06:05 UTC</createdTime>
+<ownerDesignName>Relational</ownerDesignName>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="especialidade" id="D10BE6E9-3877-A5C6-D806-3F19D7F2F080">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:06:29 UTC</createdTime>
+<ownerDesignName>Relational</ownerDesignName>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_consulta" id="8EDCB075-2F19-64A9-3224-8CB86DE07856">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:06:51 UTC</createdTime>
+<ownerDesignName>Relational</ownerDesignName>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="642449D2-12F5-67EF-D0D3-B07A6C029B37">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:15:46 UTC</createdTime>
+<generatorID>61BB0CCA-9C69-09B4-851E-88C0810CEB68</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="true"/>
+</engineerTo>
+<referedAttribute>7790F75A-D125-96FD-92DA-04130859DF1B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="0C7F4815-1067-7A23-D104-603A4EA21104">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:16:19 UTC</createdTime>
+<generatorID>6BDCBDEF-36CD-D5EE-653A-65C35DBE3D61</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="true"/>
+</engineerTo>
+<referedAttribute>B2EADA8B-0AD4-22BB-36BC-F466D162F574</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DDAFF578-50AE-98AB-76F4-71F5C23FD9DD" name="consulta PK">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:06:25 UTC</createdTime>
+<ownerDesignName>Relational</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7C775C4A-533D-3066-27FC-D46482A99A54</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

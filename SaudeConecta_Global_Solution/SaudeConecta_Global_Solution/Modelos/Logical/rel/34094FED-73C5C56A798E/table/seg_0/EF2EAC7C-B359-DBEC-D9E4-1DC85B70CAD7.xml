@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF2EAC7C-B359-DBEC-D9E4-1DC85B70CAD7" name="funcionario">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>6DB21111-EF16-0428-5A99-CDF11C600A98</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1A1C0900-27C5-C035-02BB-789A31DC1B23">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>B2EADA8B-0AD4-22BB-36BC-F466D162F574</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="F5321378-CF74-8295-2E73-349CF5A89B1E">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>5FA10EF4-9320-2D85-DE20-69B02C314F24</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="F0FFB528-7C9A-BAE9-518E-BE24A029B401">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>9197214F-45E2-E40C-D62E-B9BB4E64DC13</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_nascimento" id="29E08759-BAE1-A498-14FB-A615E91F1CFB">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>53C17969-E38A-2D2B-AB47-9B21B5FB2E57</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="8506D94A-BE40-F691-72D0-586F438B4113">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>8C197302-FEAC-ACDF-BF5E-9FA6A03947A0</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0EA563CD-5F29-1627-237A-E7272926CBAC" name="funcionario_PK">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>EF45E165-CBD4-95D7-4F91-97C42233BEA6</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A1C0900-27C5-C035-02BB-789A31DC1B23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

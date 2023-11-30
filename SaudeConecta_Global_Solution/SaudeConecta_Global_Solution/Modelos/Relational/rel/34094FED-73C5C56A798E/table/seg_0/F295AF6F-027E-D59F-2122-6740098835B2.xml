@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F295AF6F-027E-D59F-2122-6740098835B2" name="exame">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>C748DF9C-2025-5157-D45A-734FA4B8904B</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_exame" id="A57E6E60-4F8F-28D5-F06A-8D09CBA6C45D">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>6DBF537E-0CFD-50AF-7004-5DF7F181C202</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="especialista" id="CBFE22BE-F148-4BEA-2980-93C3DBD24865">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>D15C6858-1DA4-E418-5043-201F25C2DEEF</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_exame" id="0DDE0DCE-E6CB-2883-F2DA-AF01ACC5173C">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>51B6DE08-2806-D450-4286-9CC5935EB4BA</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="beneficiario_id" id="DC46DF78-0F30-D85E-1872-345B3446030B">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>8E9A5930-D489-11ED-27B2-CDE1A3099047</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="545322FD-618B-0EC3-CB33-88F6E810AAF3" referredColumn="6996BABD-E416-9BD6-1386-5128F8BECEDF"/>
+</associations>
+</Column>
+<Column name="funcionario_id" id="E0F31329-A375-7AA2-1800-D03A7CB8B5B9">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>B81CD22E-9C53-9892-F9EA-1A5BEE522892</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F12A5C51-D6C3-9C5A-456E-F73F7BCF168E" referredColumn="1A1C0900-27C5-C035-02BB-789A31DC1B23"/>
+</associations>
+</Column>
+<Column name="medico_id" id="7C74FD53-93E2-BB1A-1536-1264829D5975">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>938B97A5-FC69-7C66-E246-19D403006873</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="254BEDA7-18C8-BD92-627A-BFE3CB2BADDB" referredColumn="642187C0-93E8-560A-449A-2077186638B9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E5F46A1-2925-6545-E6C4-F8D8AD87065B" name="exame_PK">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>4F2796E0-D90C-591E-C48D-6D00905943B5</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A57E6E60-4F8F-28D5-F06A-8D09CBA6C45D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7AF380E-ABE2-8CE4-94D0-3530E9790F70" name="exame_funcionario_FK">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>A7643617-7417-C6B3-899E-0B276280BF12</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0F31329-A375-7AA2-1800-D03A7CB8B5B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D778F63-BE1D-B070-C726-97AFFFEFAFAA" name="exame_beneficiario_FK">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>73298865-B2D7-6344-00DD-9AF30ECE9145</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC46DF78-0F30-D85E-1872-345B3446030B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2F394EB-B0DD-AC94-3509-06738FE75DCD" name="exame_medico_FK">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>E6014943-C4B6-234E-865C-227856079E84</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C74FD53-93E2-BB1A-1536-1264829D5975"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

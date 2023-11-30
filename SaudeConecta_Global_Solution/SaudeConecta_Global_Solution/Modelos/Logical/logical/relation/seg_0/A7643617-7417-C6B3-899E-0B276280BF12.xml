@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="efetua" directorySegmentName="seg_0" id="A7643617-7417-C6B3-899E-0B276280BF12">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:17:04 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="true"/>
+</engineerTo>
+<sourcePk>EF45E165-CBD4-95D7-4F91-97C42233BEA6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6DB21111-EF16-0428-5A99-CDF11C600A98</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C748DF9C-2025-5157-D45A-734FA4B8904B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

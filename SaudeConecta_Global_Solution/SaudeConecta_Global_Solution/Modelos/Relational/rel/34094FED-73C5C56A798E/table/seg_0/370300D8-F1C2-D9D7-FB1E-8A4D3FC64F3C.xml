@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="370300D8-F1C2-D9D7-FB1E-8A4D3FC64F3C" name="plano">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>22E07A3A-BAA5-D8E5-D14A-CD0E8157A943</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_plano" id="2BD66796-B540-96F1-E779-7A5A6130EFCB">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>960B307E-00CA-96AB-85D2-0B801978F6E5</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_contratacao" id="87DB6933-1E8B-A661-C24B-6DA98AC62215">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>926BA63F-90C0-EA1A-C1C4-F37396FA46C5</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="beneficiario_id" id="C94795EF-B83B-BE2C-FC94-D243019EC885">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>AFFA9EA1-5C57-3FC7-DC53-EA354FCD7A2B</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FD3278D-6F89-B350-BF06-64B7B158C847" referredColumn="6996BABD-E416-9BD6-1386-5128F8BECEDF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A2039EB-5C4D-4D5C-12A7-3E234EBEB480" name="plano_PK">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>8038FC48-0DDF-B6B2-6E19-41223E9012F3</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BD66796-B540-96F1-E779-7A5A6130EFCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BE9C425-B3B2-E709-B3D9-716C7192FA91" name="plano__IDX">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<ownerDesignName>Relational</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6225EBDD-BBED-CA85-7162-B52AE6CB75BD</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C94795EF-B83B-BE2C-FC94-D243019EC885"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8C3E1B5-A7E9-CEB8-B199-146419CCC1C0" name="plano_beneficiario_FK">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>6225EBDD-BBED-CA85-7162-B52AE6CB75BD</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C94795EF-B83B-BE2C-FC94-D243019EC885"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
