@@ -9,6 +9,7 @@ import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.data.domain.Pageable;
 
 import java.util.List;
 
@@ -27,9 +28,9 @@ public class BeneficiarioController {
         }
 
         @GetMapping
-        public ResponseEntity<List<BeneficiarioDTO>> listarBeneficiario() {
-            List<BeneficiarioDTO> listarBeneficiario = beneficiarioService.procurarBeneficiario().stream().map(BeneficiarioMapper::toDTO).toList();
-            return ResponseEntity.ok(listarBeneficiario);
+        public ResponseEntity<List<BeneficiarioDTO>> listarBeneficiarioPages(Pageable pageable) {
+        List<BeneficiarioDTO> listarBeneficiario = beneficiarioService.procurarBeneficiario(pageable).stream().map(BeneficiarioMapper::toDTO).toList();
+        return ResponseEntity.ok(listarBeneficiario);
         }
         @PostMapping
         public ResponseEntity<BeneficiarioDTO> criarBeneficiario(@Valid @RequestBody BeneficiarioDTO beneficiarioDTO) {
