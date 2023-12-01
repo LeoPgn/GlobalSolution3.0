@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6DB21111-EF16-0428-5A99-CDF11C600A98" name="funcionario">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:07:24 UTC</createdTime>
+<ownerDesignName>Relational</ownerDesignName>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="B2EADA8B-0AD4-22BB-36BC-F466D162F574">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:07:34 UTC</createdTime>
+<ownerDesignName>Relational</ownerDesignName>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="5FA10EF4-9320-2D85-DE20-69B02C314F24">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:07:48 UTC</createdTime>
+<ownerDesignName>Relational</ownerDesignName>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="9197214F-45E2-E40C-D62E-B9BB4E64DC13">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:08:11 UTC</createdTime>
+<ownerDesignName>Relational</ownerDesignName>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_nascimento" id="53C17969-E38A-2D2B-AB47-9B21B5FB2E57">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:08:25 UTC</createdTime>
+<ownerDesignName>Relational</ownerDesignName>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="8C197302-FEAC-ACDF-BF5E-9FA6A03947A0">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:08:44 UTC</createdTime>
+<ownerDesignName>Relational</ownerDesignName>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EF45E165-CBD4-95D7-4F91-97C42233BEA6" name="funcionario PK">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:07:47 UTC</createdTime>
+<ownerDesignName>Relational</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B2EADA8B-0AD4-22BB-36BC-F466D162F574</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

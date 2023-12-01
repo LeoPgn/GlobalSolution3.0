@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF0D552D-82C3-5BC8-5254-0E825ECD87DB" name="medico">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>5B38ADC2-F1CF-8377-17E8-8E801EFF579C</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="642187C0-93E8-560A-449A-2077186638B9">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>2B46F048-D957-4054-46D1-BA45053A3C49</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="8C6FA999-C174-E0FE-1DB3-AD36EC11B64B">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>7480B55D-7DEB-30EC-B3F9-DF3C88C2B67F</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="B2BECFD8-40FA-11F2-510F-8B6BEB95353A">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>E15A0C28-F13E-571E-63C9-9D5CAE1F55AD</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_nascimento" id="FB7B1401-8890-8004-34BE-5C4FE038F66D">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>D0D4A634-7E5C-DC6C-CF8A-623FD0C3EEFC</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="848823BE-2FB2-AD53-4074-F55293AAF76C">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>09942E52-04B4-268D-19E6-B9044CF1A13B</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="especialidade_medico" id="E7190BB0-71E4-7208-9870-2D1D33FE8ABA">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>BF901BCB-80A3-7B67-6CAA-4702B119C0D3</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F906AC6-76C9-9244-36D8-0E17588C9FD8" name="medico_PK">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:47 UTC</createdTime>
+<generatorID>4BE5C330-B16B-535C-FBBF-53B318DAB5AE</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="642187C0-93E8-560A-449A-2077186638B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

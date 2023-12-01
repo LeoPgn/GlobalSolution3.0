@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="22E07A3A-BAA5-D8E5-D14A-CD0E8157A943" name="plano">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:11:18 UTC</createdTime>
+<ownerDesignName>Relational</ownerDesignName>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_plano" id="960B307E-00CA-96AB-85D2-0B801978F6E5">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:11:24 UTC</createdTime>
+<ownerDesignName>Relational</ownerDesignName>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_contratacao" id="926BA63F-90C0-EA1A-C1C4-F37396FA46C5">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:11:38 UTC</createdTime>
+<ownerDesignName>Relational</ownerDesignName>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="AFFA9EA1-5C57-3FC7-DC53-EA354FCD7A2B">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:21:30 UTC</createdTime>
+<generatorID>6225EBDD-BBED-CA85-7162-B52AE6CB75BD</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="true"/>
+</engineerTo>
+<referedAttribute>7790F75A-D125-96FD-92DA-04130859DF1B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8038FC48-0DDF-B6B2-6E19-41223E9012F3" name="plano PK">
+<createdBy>Jhonn</createdBy>
+<createdTime>2023-11-28 00:11:36 UTC</createdTime>
+<ownerDesignName>Relational</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="34094FED-230F-6AAD-A6CA-73C5C56A798E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>960B307E-00CA-96AB-85D2-0B801978F6E5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
