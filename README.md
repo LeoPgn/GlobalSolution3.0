@@ -44,8 +44,6 @@ Para o ReactNative: https://www.youtube.com/watch?v=FWwKjxSgLl8&list=PLQWFhX-gwJ
 
 ![image](https://github.com/jhonnbr4ndon/GS_ENTERPRISE/assets/112666523/ba6a4924-60f9-4ffc-897c-c6611f6d72d6)
 
-# GS_ENTERPRISEAPI
-
 ## Instruções para Rodar a Aplicação
 
 ### Requisitos
