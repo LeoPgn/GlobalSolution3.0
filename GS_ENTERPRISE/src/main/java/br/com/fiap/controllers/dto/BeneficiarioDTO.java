@@ -20,7 +20,6 @@ public class BeneficiarioDTO {
     @NotNull
     private Date data_nascimento;
 
-    @NotNull
     @Min(1)
     private Integer cep;
 
